@@ -6,14 +6,14 @@ using namespace std;
 
 int findMax(vector<float> a, vector<float> b) {
 	cout << a.size() << " " << b.size();
-	float maxOne = 0;
+	float maxi = 0;
 	for (int i = 0; i < a.size(); i++) {
 		for (int j = 0; j < b.size(); j++) {
-			if (i * j > maxOne)
-				maxOne = i * j;
+			if (i * j > maxi)
+				maxi = i * j;
 		}
 	}
-	return maxOne;
+	return maxi;
 }
 
 int main() {
