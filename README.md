@@ -1,5 +1,5 @@
 # numba_vs_Cpp_speed
-A simple problem to compare execution speed between Numba and C++
+A simple problem to compare execution speed between Numba and C++ <br>
 <strong>Size of list/vector: 20000</strong>
 <ul>
 <li>Python: ~23 seconds
