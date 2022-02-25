@@ -14,8 +14,8 @@ def find_max(a, b):
     return maxi
 
 
-a = [0.5 for i in range(50000)]
-b = [0.4 for j in range(50000)]
+a = [0.5 for i in range(20000)]
+b = [0.4 for j in range(20000)]
 
 t0 = time.time()
 s = find_max(a, b)
