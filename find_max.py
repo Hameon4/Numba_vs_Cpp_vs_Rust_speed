@@ -1,5 +1,10 @@
 import time
 from numba import njit
+from numba.core.errors import NumbaDeprecationWarning, NumbaPendingDeprecationWarning
+import warnings
+
+warnings.simplefilter('ignore', category=NumbaDeprecationWarning)
+warnings.simplefilter('ignore', category=NumbaPendingDeprecationWarning)
 
 
 @njit
@@ -20,4 +25,4 @@ b = [0.4 for j in range(20000)]
 t0 = time.time()
 s = find_max(a, b)
 t1 = time.time()
-print(str(t1 - t0) + "s res:" + str(s))
+print(f'Time taken: {t1 - t0} seconds')
