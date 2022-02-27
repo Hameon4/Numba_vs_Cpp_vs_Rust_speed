@@ -15,6 +15,7 @@ A simple problem to compare execution speed between Numba and C++ optimization <
     <li>0.7, 0.9, 1.1, 1.3, 1.22, 1.18, 0.86, 0.87, 1.03, 1.16</li>
     <li><strong>Average: </strong>10.319</li>
   </ul>
+  <hr>
   <li><strong>[Rust using <i>cargo run --release</i>] on cmd:</strong> </li>
   <ul>
     <li>NOTE: Unit measured for each test on rust is in <i>microseconds</i>
