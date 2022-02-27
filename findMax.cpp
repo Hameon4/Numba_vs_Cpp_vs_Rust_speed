@@ -6,9 +6,7 @@
 
 
 int findMax(std::vector<int> a, std::vector<int> b) {
-	int A = a.size();
-	int B = b.size();
-	printf("%d %d\n", A, B);
+	printf("%d %d\n", int(a.size()), int(b.size()));
 	int maxi = 0;
 	for (int i = 0; i < a.size(); ++i) {
 		for (int j = 0; j < b.size(); ++j) {
