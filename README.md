@@ -1,4 +1,4 @@
-# Numba_vs_Cpp_speed
+# Numba_vs_Cpp_vs_Rust_speed
 A simple problem to compare execution speed between Numba and C++ optimization <br><br>
 <strong>Size of list/vector: 20000</strong>
 <p>
