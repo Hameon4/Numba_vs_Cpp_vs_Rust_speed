@@ -4,19 +4,19 @@ A simple problem to compare execution speed between Numba and C++ optimization <
 <p>
   <h3>Test Benchmarks on ten attempts on each languages:</h3>
   <ul>
-  <li><strong>[PYTHON w/ Numba] Jupyter notebook:</strong> </li>
+  <li><strong>[PYTHON w/ Numba] in Jupyter notebook:</strong> </li>
   <ul>
     <li>0.86, 1.11, 0.89, 1.17, 0.96, 1.05, 1.04, 0.89, 1.077, 1.022</li>
     <li><strong>Average: </strong>10.069</li>
   </ul>
   <hr>
-  <li><strong>[C++ w/ optimization] onlinegdb:</strong> </li>
+  <li><strong>[C++ w/ optimization] in onlinegdb:</strong> </li>
   <ul>
     <li>0.7, 0.9, 1.1, 1.3, 1.22, 1.18, 0.86, 0.87, 1.03, 1.16</li>
     <li><strong>Average: </strong>10.319</li>
   </ul>
   <hr>
-  <li><strong>[Rust using <i>cargo run --release</i>] on cmd:</strong> </li>
+  <li><strong>[Rust using <i>'cargo run --release'</i>] in cmd:</strong> </li>
   <ul>
     <li>NOTE: Unit measured for each test on rust is in <i>microseconds</i>
     <li>269, 522.7, 651.4, 322, 428.3, 385.3, 412.9, 751, 622, 664.6</li>
