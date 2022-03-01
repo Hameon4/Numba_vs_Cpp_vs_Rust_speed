@@ -4,8 +4,6 @@
 #pragma GCC optimize("Ofast")
 #pragma GCC target("avx,avx2,fma")
 
-
-
 int findMax(std::vector<int> a, std::vector<int> b) 
 {
 	printf("%d %d\n", int(a.size()), int(b.size()));
