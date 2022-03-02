@@ -1,7 +1,9 @@
 # Numba_v_Cpp_v_Rust_speed
 A simple problem to compare execution speeds between Python w/ Numba, C++ w/ optimization, and Rust using its package manager 'cargo' via 'cargo run --release' command <br><br>
-<h3>Text Editor: VsCode</h3>
-<strong>Size of list/vector: 20000</strong>
+<ul>
+  <li><h3>Text Editor: VsCode</h3></li>
+  <li><h3>Size of list/vector: 20000</h3></li>
+</ul>
 <p>
   <h3>Test Benchmarks on ten attempts on each languages:</h3>
   <ul>
