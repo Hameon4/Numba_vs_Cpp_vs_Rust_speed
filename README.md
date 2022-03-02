@@ -7,7 +7,7 @@ A simple problem to compare execution speeds between Python w/ Numba, C++ w/ opt
 <p>
   <h3>Test Benchmarks on ten attempts on each languages:</h3>
   <ul>
-  <li><strong>[PYTHON w/ Numba]:</strong> (in seconds)</li>
+  <li><strong>[Python w/ Numba]:</strong> (in seconds)</li>
   <ul>
     <li>0.86, 1.11, 0.89, 1.17, 0.96, 1.05, 1.04, 0.89, 1.077, 1.022</li>
     <li><strong>Average: </strong>1.0069 seconds</li>
