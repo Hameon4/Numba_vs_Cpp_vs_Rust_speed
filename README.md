@@ -23,8 +23,9 @@ A simple problem to compare execution speeds between Python w/ Numba, C++ w/ opt
     <li>Fastest speed recorded: ~ 31.25 milliseconds</li>
   </ul>
   <hr>
-  <li><strong>[Rust using <i>'cargo run --release'</i>] in cmd:</strong> (in microseconds)</li>
+  <li><strong>[Rust]:</strong> (in microseconds)</li>
   <ul>
+    <li>Compilation command: cargo run --release
     <li>269, 522.7, 651.4, 322, 428.3, 385.3, 412.9, 751, 622, 664.6</li>
     <li><strong>Average: </strong>502.92 microseconds</li>
     <li>Fastest speed recorded: ~ 228 microseconds</li>
