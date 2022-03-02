@@ -23,6 +23,6 @@ a = [0.5 for i in range(20000)]
 b = [0.4 for j in range(20000)]
 
 t0 = time.time()
-s = find_max(a, b)
+find_max(a, b)
 t1 = time.time()
 print(f'Time taken: {t1 - t0} seconds')
