@@ -1,10 +1,8 @@
-#include <vector>
-#include <cstdio>
-#include <ctime>
+#include <bits/stdc++.h>
 #pragma GCC optimize("Ofast")
 #pragma GCC target("avx,avx2,fma")
 
-int findMax(std::vector<int> a, std::vector<int> b) 
+inline int findMax(std::vector<int> a, std::vector<int> b)
 {
 	printf("%d %d\n", int(a.size()), int(b.size()));
 	int maxi = 0;
@@ -29,6 +27,7 @@ int main()
 	}
 	clock_t start, end;
 	start = clock();
+	std::ios_base::sync_with_stdio(false);
 	findMax(a, b);
 	end = clock();
 	double time_taken = double(end - start) / double(CLOCKS_PER_SEC);
