@@ -1,14 +1,17 @@
-#include <bits/stdc++.h>
+#include <vector>
+#include <ctime>
+#include <cstdio>
+#include <ios>
 #pragma GCC optimize("Ofast")
 #pragma GCC target("avx,avx2,fma")
 
-inline int findMax(std::vector<int> a, std::vector<int> b)
+int findMax(std::vector<int> a, std::vector<int> b)
 {
 	printf("%d %d\n", int(a.size()), int(b.size()));
 	int maxi = 0;
-	for (int i = 0; i < int(a.size()); ++i) 
+	for (int i = 0; i < int(a.size()); ++i)
 	{
-		for (int j = 0; j < int(b.size()); ++j) 
+		for (int j = 0; j < int(b.size()); ++j)
 		{
 			if (i * j > maxi)
 				maxi = i * j;
@@ -20,7 +23,7 @@ inline int findMax(std::vector<int> a, std::vector<int> b)
 int main()
 {
 	std::vector<int> a, b;
-	for (int i = 0; i < 20000; ++i) 
+	for (int i = 0; i < 20000; ++i)
 	{
 		a.emplace_back(0.5);
 		b.emplace_back(0.4);
