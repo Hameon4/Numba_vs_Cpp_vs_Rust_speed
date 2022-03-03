@@ -23,5 +23,5 @@ fn find_max(a: Vec<f32>, b: Vec<f32>)-> usize {
             }
         }
     }
-    return maxi;
+    maxi
 }
