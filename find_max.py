@@ -1,11 +1,6 @@
 import time
 from numba import njit
-from numba.core.errors import NumbaDeprecationWarning, NumbaPendingDeprecationWarning
-import warnings
-
-warnings.simplefilter('ignore', category=NumbaDeprecationWarning)
-warnings.simplefilter('ignore', category=NumbaPendingDeprecationWarning)
-
+import numpy as np 
 
 @njit
 def find_max(a, b):
@@ -19,10 +14,20 @@ def find_max(a, b):
     return maxi
 
 
-a = [0.5 for i in range(20000)]
-b = [0.4 for j in range(20000)]
+a = np.array([0])
+b = np.array([0])
+for i in range(1, 20000):
+    a = np.append(a, 0.5)
+    b = np.append(b, 0.4)
 
-t0 = time.time()
-find_max(a, b)
-t1 = time.time()
-print(f'Time taken: {t1 - t0} seconds')
+
+arr = np.array([0])
+for i in range(10):
+    t0 = time.time()
+    find_max(a, b)
+    t1 = time.time()
+    t2 = t1 - t0
+    print(f'Time taken: {t2} seconds')
+    arr = np.append(arr, t2)
+print(f'Array List: {arr}')
+print(f'Average of the array: {np.average(arr)}')
