@@ -9,9 +9,9 @@ A simple problem to compare execution speeds between Python w/ Numba, C++ w/ opt
   <ul>
   <li><strong>[Python w/ Numba]:</strong> (in seconds)</li>
   <ul>
-    <li>Array List: [0.         0.73074698 0.61600018 0.59993911 0.60388827 0.61557937
- 0.61330199 0.60252285 0.6009593  0.61777449 0.65595341]</li>
-    <li><strong>Average: </strong>0.5687878131866455 seconds</li>
+    <li>Array List: [0.72147632 0.60844398 0.61216307 0.6099298  0.62080336 0.62467861
+ 0.60971665 0.62949634 0.61024547 0.62054276]</li>
+    <li><strong>Average: </strong>0.6267496347427368 seconds</li>
     <li>Fastest speed recorded: ~ 0.6 seconds</li>
   </ul>
   <hr>
