@@ -7,12 +7,12 @@ A simple problem to compare execution speeds between Python w/ Numba, C++ w/ opt
 <p>
   <h3>Test Benchmarks on ten attempts on each languages:</h3>
   <ul>
-  <li><strong>[Python w/ Numba]:</strong> (in seconds)</li>
+  <li><strong>[Python w/ Numba]:</strong> (in milliseconds)</li>
   <ul>
-    <li>Array List: [0.72147632 0.60844398 0.61216307 0.6099298  0.62080336 0.62467861
- 0.60971665 0.62949634 0.61024547 0.62054276]</li>
-    <li><strong>Average: </strong>0.6267496347427368 seconds</li>
-    <li>Fastest speed recorded: ~ 0.6 seconds</li>
+    <li>Array List: Array List: [735.00061035 617.51627922 613.51847649 610.07523537 602.12874413
+ 612.00761795 603.58858109 609.18903351 609.75456238 606.22835159]</li>
+    <li><strong>Average: </strong>621.900749206543 seconds</li>
+    <li>Fastest speed recorded: ~ 600 milliseconds</li>
   </ul>
   <hr>
   <li><strong>[C++ w/ optimization]:</strong> (in milliseconds)</li>
