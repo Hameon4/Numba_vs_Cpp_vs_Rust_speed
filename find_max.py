@@ -14,20 +14,20 @@ def find_max(a, b):
     return maxi
 
 
-a = np.array([0])
-b = np.array([0])
-for i in range(1, 20000):
+a = np.array([])
+b = np.array([])
+for i in range(20000):
     a = np.append(a, 0.5)
     b = np.append(b, 0.4)
 
 
-arr = np.array([0])
+arr = np.array([])
 for i in range(10):
     t0 = time.time()
     find_max(a, b)
     t1 = time.time()
-    t2 = t1 - t0
-    print(f'Time taken: {t2} seconds')
+    t2 = (t1 - t0) * 1000
+    print(f'Time taken: {t2} milliseconds')
     arr = np.append(arr, t2)
 print(f'Array List: {arr}')
 print(f'Average of the array: {np.average(arr)}')
