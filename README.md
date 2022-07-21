@@ -15,12 +15,12 @@ A simple problem to compare execution speeds between Python w/ Numba, C++ w/ opt
     <li>Fastest speed recorded: ~ 0.6 seconds</li>
   </ul>
   <hr>
-  <li><strong>[C++ w/ optimization]:</strong> (in seconds)</li>
+  <li><strong>[C++ w/ optimization]:</strong> (in milliseconds)</li>
   <ul>
     <li>Compiler: g++ version 11.1</li>
     <li>Compilation command: g++-11 -Ofast -std=c++2a findMax.cpp</li>
-    <li>0.062500, 0.046875, 0.046875, 0.046875, 0.046875, 0.046875, 0.031250, 0.046875, 0.062500, 0.046875</li>
-    <li><strong>Average: </strong>0.0484375 seconds ~ 48.4375 milliseconds</li>
+    <li>62.500, 46.875, 46.875, 46.875, 46.875, 46.875, 31.250, 46.875, 62.500, 46.875</li>
+    <li><strong>Average: </strong>~ 48.4375 milliseconds</li>
     <li>Fastest speed recorded: ~ 31.25 milliseconds</li>
   </ul>
   <hr>
