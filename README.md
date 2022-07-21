@@ -11,7 +11,7 @@ A simple problem to compare execution speeds between Python w/ Numba, C++ w/ opt
   <ul>
     <li>Array List: Array List: [735.00061035 617.51627922 613.51847649 610.07523537 602.12874413
  612.00761795 603.58858109 609.18903351 609.75456238 606.22835159]</li>
-    <li><strong>Average: </strong>621.900749206543 milliseconds</li>
+    <li><strong>Average: </strong>~622 milliseconds</li>
     <li>Fastest speed recorded: ~ 600 milliseconds</li>
   </ul>
   <hr>
